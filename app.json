@@ -4,24 +4,26 @@
     "slug": "kuwait-national-day",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/nationalDay.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/nationalDay_splash_icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shadows.kuwaitnationalday",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.shadows.kuwaitnationalday",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/nationalDay_adaptive_icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
