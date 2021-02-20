@@ -1,5 +1,5 @@
 const vars = {
-  googleApiKey: 'AIzaSyAZ_ZiCoS9qUOmu_27BpNNxdsweWOGgQsc',
+  googleApiKey: 'YOUAPIKEY',
 };
 
 export default vars;
